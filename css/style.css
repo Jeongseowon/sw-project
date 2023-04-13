@@ -29,3 +29,6 @@ input, select{vertical-align:middle;}
 .cboth:after{clear:both;}
 .cboth{-ms-zoom:1;}
 .clear{clear:both;}
+
+#header {position:absolute;}
+
