@@ -30,5 +30,31 @@ input, select{vertical-align:middle;}
 .cboth{-ms-zoom:1;}
 .clear{clear:both;}
 
-#header {position:absolute;}
 
+/*header*/
+#header{position:fixed;left:0;width:100%;background:#f2f2f2;height:100px;z-index:999;}
+
+#header h1.logo{position:absolute;top:50%;left:10px;transform:translate(0,-50%);font-size:0;width:320px;height:50px;background:#fdfdfd;}
+
+#header .menuBtn{position:absolute;top:50%;right:10px;width:50px;height:50px;transform:translate(0,-50%);display:block;cursor:pointer;}
+
+#header .head-menu{display:none;}
+
+
+/*main*/
+
+
+#wrap {position:relative;top:150px;}
+
+#project-wrap{}
+#project-wrap .inner-wrap{font-size:0;margin:0 auto;max-width:1200px;}
+
+#project-wrap .pj-bx{display:inline-block;width:50%;background:#ddd;height:300px;}
+/*#project-wrap .pj-bx:nth-child(3n){margin:0 0 2% 0 ;}*/
+
+#project-wrap .pj-bx > a{display:block;position:relative;}
+#project-wrap .pj-bx h2.tit{font-size:16px;}
+
+#project-wrap .pj-tit{font-size:20px;position:relative;bottom:10px;left:0;}
+
+#project-wrap .pj-box-hover{display:none;}
